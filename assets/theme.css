@@ -57,3 +57,15 @@ hr.sep::after{content:"";position:absolute;left:50%;top:-4px;width:120px;height:
 section.wrap{padding-top:34px}
 .vids.tiktok-row{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
 .vid.tiktok blockquote,.vid.tiktok iframe{width:100%!important;max-width:360px;margin:0 auto;border-radius:14px;overflow:hidden}
+.ptabs{display:inline-flex;gap:4px;background:rgba(255,255,255,.07);border:1px solid var(--line);border-radius:99px;padding:4px;margin:2px 0 18px}
+.ptab{border:0;background:transparent;color:var(--mut);font-weight:700;font-size:14px;padding:8px 22px;border-radius:99px;cursor:pointer}
+.ptab.on{background:linear-gradient(90deg,var(--gold),#ffcf87);color:#23160a}
+.pane{display:none!important}
+.pane.on{display:grid!important}
+.vid{background:#000;border:2px solid #fff;border-radius:16px;overflow:hidden}
+.vid iframe{width:100%;aspect-ratio:9/16;border:0;display:block;background:#000}
+.vid p{font-size:13px;color:var(--mut);margin:8px 4px}
+.vids.tiktok-row{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.vid.tiktok blockquote,.vid.tiktok iframe{width:100%!important;max-width:360px;margin:0 auto;display:block}
+.pane .card{background:#000;border:2px solid #fff;border-radius:16px}
+.pane .card a{color:var(--gold)}
