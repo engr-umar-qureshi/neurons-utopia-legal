@@ -51,3 +51,7 @@ footer a{color:var(--txt)}
 .social a.fb{background:#1877f2;border-color:#1877f2}
 .social a.tt{background:#000;border-color:#333}
 .social a.tw{background:#000;border-color:#333}
+
+hr.sep{border:0;border-top:1px solid var(--line);margin:26px 0 30px;position:relative}
+hr.sep::after{content:"";position:absolute;left:50%;top:-4px;width:120px;height:7px;transform:translateX(-50%);border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--cyan))}
+section.wrap{padding-top:34px}
