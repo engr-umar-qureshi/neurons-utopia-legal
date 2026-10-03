@@ -69,3 +69,7 @@ section.wrap{padding-top:34px}
 .vid.tiktok blockquote,.vid.tiktok iframe{width:100%!important;max-width:360px;margin:0 auto;display:block}
 .pane .card{background:#000;border:2px solid #fff;border-radius:16px}
 .pane .card a{color:var(--gold)}
+.vids.tiktok-row{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.vid.tiktok blockquote,.vid.tiktok iframe{width:100%!important;max-width:340px!important;min-width:0!important;margin:0 auto;display:block;overflow:hidden}
+.vids.xpane{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.vid.x blockquote{margin:0 auto;max-width:400px}
